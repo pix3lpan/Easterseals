@@ -1,0 +1,145 @@
+@font-face {
+}
+head{
+}
+body{
+	background-color: #E7DFC6;
+}
+.menu ul {
+	text-align: right;
+}
+.menu ul li{
+	font-family: 'Abhaya Libre', serif;
+	list-style: none;
+	display:inline-block;
+	color:#C73E1D;
+	margin:0px;
+
+}
+.container {
+	float:right; 
+}
+.dropbtn {
+	background-color: orange;
+	color: white;
+	padding: 16px;
+	font-size: 16px;
+	border: none;
+	cursor: pointer;
+}
+.dropdown {
+ 	float: left;
+ 	display: inline-block;
+ 	width: 150px;
+ 	margin: 5px;
+
+}
+.dropdown-content {
+	font-family: 'Abhaya Libre', serif;
+	display: none;
+	position: absolute;
+	background-color: #f9f9f9;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+.dropdown-content a{
+	color: black;
+	padding: 12px;
+	text-decoration: none;
+	display: block;
+}
+.dropdown-content a:hover {background-color: yellow}
+
+.dropdown:hover .dropdown-content {
+	display: block;
+}
+
+h1{
+	font-family: 'Abhaya Libre', serif;
+	font-size: 30px;
+	background-color: #2e86ab;
+	color:#fff;
+	text-align:center;
+	padding-top: 8px;
+	padding-bottom: 8px;
+}
+.inner {
+	font-family: 'Abhaya Libre', serif;
+	font-size: 20px;
+	background-color: #2e86ab;
+	color:#3b1f2b;
+	text-align:center;
+	padding-top: 8px;
+	padding-bottom: 8px;
+}
+	
+h2{
+	font-family: 'Abhaya Libre', serif;
+	font-size: 30px;
+	text-align:center;
+	padding-top: 8px;
+	padding-bottom: 8px;
+}	
+.mySlides {display:none}
+
+.slideshow-container {
+  max-width: 1500px;
+  position: relative;
+  margin: auto;
+}
+
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+
+.dot {
+  height: 13px;
+  width: 13px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 2s;
+  animation-name: fade;
+  animation-duration: 2s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}

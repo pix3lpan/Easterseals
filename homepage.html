@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Easter Seals</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>	
+	<link href="https://fonts.googleapis.com/css?family=Abhaya+Libre" rel="stylesheet">
+	<body>
+
+	<div class="menu">
+		<ul style="list-style-type: none;">
+			<li><a href="login.html">Login</a></li>
+			<li><a href="register.html">Register</a></li>
+			<li><a href="contact.html">Need Help?</a></li>
+		</ul>
+	<div class="container">
+	<div class="row">
+        <div class="col-md-6">
+            <div id="custom-search-input">
+                <div class="input-group col-md-12">
+                    <input type="text" class="form-control input-lg" placeholder="Search Site" />
+                    <span class="input-group-btn">
+                        <button onclick="myFunction()"">Search</button>
+                            <i class="glyphicon glyphicon-search"></i>
+                        </button>
+                    </span>
+                </div>
+            </div>
+        </div>
+	</div>
+</div>
+		<img src="images/sealslogo.png">
+
+	</div>
+
+	<div>
+		<ul class="dropdown"> 
+		 	<button onclick="myFunction()" class="dropbtn">Who We Are</button>
+			<ul style="list-style-type: none;">
+			<div id="WhoWeAre" class="dropdown-content">
+					<a href="file:///C:/Users/plane/Desktop/CharityPage/History.html/">History</a>
+					<a href="file:///C:/Users/plane/Desktop/CharityPage/News.html/">News</a>
+					<a href="file:///C:/Users/plane/Desktop/CharityPage/FAQ.html">FAQ</a>
+					<a href="file:///C:/Users/plane/Desktop/CharityPage/Directors.html">Board of Directors</a>
+					<a href="file:///C:/Users/plane/Desktop/CharityPage/jobs.html">Jobs</a>
+					<a href="file:///C:/Users/plane/Desktop/CharityPage/contact.html">Contact Us</a>
+			</ul>
+			</div>
+		</div>
+
+		<ul class="dropdown">
+		 	<button onclick="myFunction()" class="dropbtn">What We Do</button>
+			<ul style="list-style-type: none;">
+			<div id="WhoWeAre" class="dropdown-content">
+					<a href="file:///C:/Users/plane/Desktop/CharityPage/children.html/">For Children</a>
+					<a href="file:///C:/Users/plane/Desktop/CharityPage/youngadults.html/">For Young Adults</a>
+					<a href="file:///C:/Users/plane/Desktop/CharityPage/adults.html">For Adults</a>
+					<a href="file:///C:/Users/plane/Desktop/CharityPage/seniors.html">For Seniors</a>
+					<a href="file:///C:/Users/plane/Desktop/CharityPage/veterans.html">For Veterans</a>
+					<a href="file:///C:/Users/plane/Desktop/CharityPage/caregivers.html">For Caregivers</a>
+			</ul>
+			</div>
+			</ul>
+	<div>
+		<ul class="dropdown"> 
+		 	<button onclick="myFunction()" class="dropbtn">Our Programs</button>
+			<ul style="list-style-type: none;">
+			<div id="OurPrograms" class="dropdown-content">
+					<a href="file:///C:/Users/plane/Desktop/CharityPage/Live.html/">Live</a>
+					<a href="file:///C:/Users/plane/Desktop/CharityPage/Work.html/">Work</a>
+					<a href="file:///C:/Users/plane/Desktop/CharityPage/Learn.html">Learn</a>
+					<a href="file:///C:/Users/plane/Desktop/CharityPage/Play.html">Play</a>
+					
+			</ul>
+			</div>
+			</div>
+	<div>
+		<ul class="dropdown"> 
+		 	<button onclick="myFunction()" class="dropbtn">Get Involved</button>
+			<ul style="list-style-type: none;">
+			<div id="OurPrograms" class="dropdown-content">
+					<a href="file:///C:/Users/plane/Desktop/CharityPage/Live.html/">Live</a>
+					<a href="file:///C:/Users/plane/Desktop/CharityPage/Work.html/">Work</a>
+					<a href="file:///C:/Users/plane/Desktop/CharityPage/Learn.html">Learn</a>
+					<a href="file:///C:/Users/plane/Desktop/CharityPage/Play.html">Play</a>
+					
+			</ul>
+			</div>
+
+	<div>
+		<ul class="dropdown"> 
+		 	<button onclick="myFunction()" class="dropbtn">Connect Locally</button>
+			<ul style="list-style-type: none;">
+			<div id="OurPrograms" class="dropdown-content">
+					<a href="file:///C:/Users/plane/Desktop/CharityPage/Live.html/">Live</a>
+					<a href="file:///C:/Users/plane/Desktop/CharityPage/Work.html/">Work</a>
+					<a href="file:///C:/Users/plane/Desktop/CharityPage/Learn.html">Learn</a>
+					<a href="file:///C:/Users/plane/Desktop/CharityPage/Play.html">Play</a>
+					
+			</ul>
+		</div>
+
+<body>
+
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 3</div>
+  <img src="images/read.jpg" style="width:100%">
+  <div class="text">Caption Text</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 3</div>
+  <img src="images/mack-moxy-marquee.png" style="width:100%">
+  <div class="text">Caption Two</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 3</div>
+  <img src="images/smithsonian.jpg" style="width:100%">
+  <div class="text">Caption Three</div>
+</div>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span>
+  <span class="dot"></span>
+  <span class="dot"></span>
+</div>
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("dot");
+    for (i = 0; i < slides.length; i++) {
+       slides[i].style.display = "none";
+    }
+    slideIndex++;
+    if (slideIndex> slides.length) {slideIndex = 1}
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";
+    dots[slideIndex-1].className += " active";
+    setTimeout(showSlides, 4000); // Change image every 2 seconds
+}
+</script>
+
+
+	<div id="email">
+	<div class="inner">
+	<div style="color:#3b1f2b, align=center">
+		<h1>Sign Up for Our eNews</h1>
+
+		<p>
+		Get Easterseals news, resources, and more in your inbox.</p>
+		<form method="post" action="";>
+			<label>Email Address:<input name="Emailadr" type="email" placeholder="you@email.com">	
+		</label>
+		</form>
+		</div>
+
+<br>
+	<div> 
+	<h2>Easterseals is...</h2>
+<p> 
+Easterseals provides opportunities for people of all ages with a range of disabilities to achieve their full potential. Together, we’re changing the way the world defines and views disability. 
+
+With a network nationwide, we’re proud to serve approximately 1.5 million people with disabilities and their families. From therapy and early intervention services, to camps and employment placement, we help children and adults with disabilities, caregivers, veterans and seniors be at their best as they live, learn, work and play.
+
+Watch Easterseals in action, and contact your local Easterseals today to get more details about the services available in your community.
+
+</p>
+</body>
+</html>

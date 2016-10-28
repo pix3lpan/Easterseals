@@ -1,0 +1,19 @@
+@font-face {
+}
+head{
+}
+body{
+}
+ul li{
+	font-family: 'Lalezar', cursive;
+	text-align: right;
+	list-style: none;
+	margin:10px;
+}
+h1{
+	font-family: 'Lalezar', cursive;
+	font-size: 50px;
+	background-color: #000;
+	color:#fff;
+	text-align:center;
+}
